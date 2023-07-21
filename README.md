@@ -2,7 +2,7 @@
 
 A clone of John Conway's Game of life written in C.
 
-![](https://raw.githubusercontent.com/DigitalCyan/game-of-life/main/demo/demo.gif)
+![](https://github.com/DigitalCyan/game-of-life/blob/main/demo/demo.gif?raw=true)
 
 ## Dependencies:
 - SDL 2
