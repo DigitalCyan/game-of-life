@@ -7,7 +7,7 @@
 
 #define GAME_NAME "Game of Life"
 
-#define WORLD_SIZE 128
+#define WORLD_SIZE 32
 #define CELL_SIZE 8
 #define THINK_DELAY 50
 
