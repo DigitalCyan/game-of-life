@@ -6,6 +6,7 @@
 #define GAME_OF_LIFE_WORLD_H
 
 #include <stdlib.h>
+#include <memory.h>
 #include <stdbool.h>
 #include <logger.h>
 #include <config.h>
@@ -31,5 +32,9 @@ size_t world_get_neighbours(world_t *world, int x, int y, bool is_next);
 void world_destroy(world_t *world);
 
 void world_flip(world_t *world);
+
+void world_clear(world_t *world);
+
+void world_copy(world_t *from, world_t *to);
 
 #endif //GAME_OF_LIFE_WORLD_H
