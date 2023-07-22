@@ -1,10 +1,9 @@
+<h1 align="center">Game of Life</h1>
+<p align="center">A clone of John Conway's Game of life written in C and powered by SDL 2.</p>
 
-<div style="display: flex; flex-direction: column; align-items: center">
-<h1>Game of Life</h1>
-A clone of John Conway's Game of life written in C and powered by SDL 2.
-
-![](https://github.com/DigitalCyan/game-of-life/blob/main/demo/demo.gif?raw=true)
-</div>
+<p align="center">
+    <img src="https://github.com/DigitalCyan/game-of-life/blob/main/demo/demo.gif?raw=true" />
+</p>
 
 ## About:
 
