@@ -2,7 +2,7 @@
 <p align="center">A clone of John Conway's Game of life written in C and powered by SDL 2.</p>
 
 <p align="center">
-    <img src="https://github.com/DigitalCyan/game-of-life/blob/main/demo/demo.gif?raw=true" />
+    <img src="https://github.com/DigitalCyan/game-of-life/blob/main/demo/gosper.gif?raw=true" />
 </p>
 
 ## About:
@@ -43,7 +43,7 @@ If you are on some other distribution, you are probably experienced enough to fi
 the dependencies. If not, do a few searches, it won't hurt.
 
 ## Compiling
-In order to compile the program, make sure you satisfy all the development depencencies and follow these steps:
+In order to compile the program, make sure you satisfy all the development dependencies and follow these steps:
 
 ```shell
 git clone https://github.com/DigitalCyan/game-of-life --recurse-submodules
