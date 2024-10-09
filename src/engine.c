@@ -12,7 +12,14 @@ game_state_t g_state = {
         .help_controls = false
 };
 
+extern char **environ;
+
 int init() {
+    char binary_path[PATH_MAX];
+    ssize_t len = readlink("/proc/self/exe", binary_path, sizeof(binary_path) - 1);
+    char *working_dir = dirname(binary_path);
+    char *font_path = strcat(working_dir, "/../assets/VT323-Regular.ttf");
+
     if (SDL_Init(SDL_INIT_EVERYTHING)) {
         logger(LOG_ERROR, "Failed to initialize SDL!");
         return 1;
@@ -39,7 +46,7 @@ int init() {
 
     logger(LOG_INFO, "SDL2 True Typeface module initialized successfully");
 
-    g_font = TTF_OpenFont("assets/VT323-Regular.ttf", 20);
+    g_font = TTF_OpenFont(font_path, 20);
 
     if (g_font == NULL) {
         logger(LOG_ERROR, "Failed to load the engine font!");

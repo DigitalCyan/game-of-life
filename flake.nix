@@ -39,7 +39,7 @@
         installPhase = ''
           mkdir -p $out/bin
           cp game-of-life $out/bin
-          cp -r assets $out/bin
+          cp -r assets $out
         '';
       };
     };

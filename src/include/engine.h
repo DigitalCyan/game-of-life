@@ -5,6 +5,9 @@
 #ifndef GAME_OF_LIFE_ENGINE_H
 #define GAME_OF_LIFE_ENGINE_H
 
+#include <unistd.h>
+#include <libgen.h>
+#include <limits.h>
 #include <config.h>
 #include <logger.h>
 #include <world.h>

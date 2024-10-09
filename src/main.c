@@ -1,6 +1,7 @@
 #include <engine.h>
 
-int main() {
+int main()
+{
     init();
     return 0;
 }
