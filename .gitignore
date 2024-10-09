@@ -4,3 +4,7 @@ cmake-build-release
 
 # IDE
 .idea
+
+# Output
+build
+result
