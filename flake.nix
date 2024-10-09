@@ -14,6 +14,8 @@
       devShells.${system}.default = pkgs.mkShell {
         packages = with pkgs; [
           pkg-config
+          gcc
+          cmake
           SDL2
           SDL2_ttf
         ];
